@@ -738,7 +738,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <wire x1="-0.6" y1="-1.45" x2="-0.6" y2="1.45" width="0.2" layer="21"/>
 <wire x1="-1.85" y1="1.5" x2="-0.95" y2="1.5" width="0.2" layer="21"/>
 </package>
-<package name="MYBUTTON" library_version="18">
+<package name="MYBUTTON" library_version="23">
 <description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 4.6 x 2.8mm&lt;/h3&gt;
 &lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://www.ck-components.com/media/1479/kmr2.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
@@ -1531,7 +1531,7 @@ Switches electrical signals</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ESP32_WROVER_FRAMES_A3L-LOC" prefix="FRAME" uservalue="yes" library_version="22">
+<deviceset name="ESP32_WROVER_FRAMES_A3L-LOC" prefix="FRAME" uservalue="yes" library_version="23">
 <description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
 DIN A3, landscape with location and doc. field</description>
 <gates>
@@ -1545,7 +1545,7 @@ DIN A3, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SAMACSYS_PARTS_USB4110-GF-A" prefix="J" library_version="22">
+<deviceset name="SAMACSYS_PARTS_USB4110-GF-A" prefix="J" library_version="23">
 <description>&lt;b&gt;CONN USB 2.0 TYPE-C R/A SMT&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://gct.co/files/drawings/usb4110.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1590,7 +1590,7 @@ Source: &lt;a href="https://gct.co/files/drawings/usb4110.pdf"&gt; Datasheet &lt
 </device>
 </devices>
 </deviceset>
-<deviceset name="GND-BAR" prefix="SUPPLY" uservalue="yes" library_version="22">
+<deviceset name="GND-BAR" prefix="SUPPLY" uservalue="yes" library_version="23">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt; - Ground (GND) Bar</description>
 <gates>
 <gate name="G$1" symbol="GND-BAR" x="0" y="0"/>
@@ -1606,7 +1606,7 @@ Source: &lt;a href="https://gct.co/files/drawings/usb4110.pdf"&gt; Datasheet &lt
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32C6_VARISTOR" prefix="R" library_version="22">
+<deviceset name="ESP32C6_VARISTOR" prefix="R" library_version="23">
 <description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="ESP32_WROVER_VARISTOR_VARISTOR" x="0" y="0"/>
@@ -1625,7 +1625,7 @@ Source: &lt;a href="https://gct.co/files/drawings/usb4110.pdf"&gt; Datasheet &lt
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32_WROVER_EAGLE-LTSPICE_R" prefix="R" uservalue="yes" library_version="22">
+<deviceset name="ESP32_WROVER_EAGLE-LTSPICE_R" prefix="R" uservalue="yes" library_version="23">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="ESP32_WROVER_EAGLE-LTSPICE_R" x="0" y="0"/>
@@ -1642,7 +1642,7 @@ Source: &lt;a href="https://gct.co/files/drawings/usb4110.pdf"&gt; Datasheet &lt
 </device>
 </devices>
 </deviceset>
-<deviceset name="EAGLE-LTSPICE_C" prefix="C" uservalue="yes" library_version="22">
+<deviceset name="EAGLE-LTSPICE_C" prefix="C" uservalue="yes" library_version="23">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="EAGLE-LTSPICE_C" x="0" y="0"/>
@@ -1662,7 +1662,7 @@ Source: &lt;a href="https://gct.co/files/drawings/usb4110.pdf"&gt; Datasheet &lt
 </device>
 </devices>
 </deviceset>
-<deviceset name="USBLC6-2SC6Y" prefix="D" library_version="22">
+<deviceset name="USBLC6-2SC6Y" prefix="D" library_version="23">
 <description>&lt;b&gt;Low Cap. ESD Protection Auto SOT-23-6 STMicroelectronics USBLC6-2SC6Y, Dual Uni-Directional TVS Diode Array, 6-Pin SOT-23&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.pdf"&gt; Datasheet &lt;/a&gt;  &lt;a href="https://pricing.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
@@ -1693,7 +1693,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 </device>
 </devices>
 </deviceset>
-<deviceset name="XC6220A331MR-G" prefix="IC" library_version="22">
+<deviceset name="XC6220A331MR-G" prefix="IC" library_version="23">
 <description>&lt;b&gt;LDO Voltage Regulators&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.torexsemi.com/file/xc6220/XC6220.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1723,7 +1723,7 @@ Source: &lt;a href="https://www.torexsemi.com/file/xc6220/XC6220.pdf"&gt; Datash
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32_WROVER_SPARKFUN-DISCRETESEMI_MOSFET_PCH" prefix="Q" library_version="22">
+<deviceset name="ESP32_WROVER_SPARKFUN-DISCRETESEMI_MOSFET_PCH" prefix="Q" library_version="23">
 <description>&lt;h3&gt;P-channel MOSFETs&lt;/h3&gt;
 &lt;p&gt;Voltage controlled devices that allow control of high current outputs.&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
@@ -1750,7 +1750,7 @@ Source: &lt;a href="https://www.torexsemi.com/file/xc6220/XC6220.pdf"&gt; Datash
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32_WROVER_AVX---SD0805S020S1R0_AVX_SD0805S020S1R0_0_0" prefix="D" library_version="22">
+<deviceset name="ESP32_WROVER_AVX---SD0805S020S1R0_AVX_SD0805S020S1R0_0_0" prefix="D" library_version="23">
 <description>Schottky Barrier Rectifier Diode</description>
 <gates>
 <gate name="G$0" symbol="ESP32_WROVER_AVX---SD0805S020S1R0_AVX_SD0805S020S1R0_0_0" x="0" y="0"/>
@@ -1781,7 +1781,7 @@ Source: &lt;a href="https://www.torexsemi.com/file/xc6220/XC6220.pdf"&gt; Datash
 </device>
 </devices>
 </deviceset>
-<deviceset name="3V3-CIRCLE" prefix="SUPPLY" uservalue="yes" library_version="22">
+<deviceset name="3V3-CIRCLE" prefix="SUPPLY" uservalue="yes" library_version="23">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;  3.3 Volt (3V3) Circle</description>
 <gates>
 <gate name="G$1" symbol="3V3-CIRCLE" x="0" y="0"/>
@@ -1797,7 +1797,7 @@ Source: &lt;a href="https://www.torexsemi.com/file/xc6220/XC6220.pdf"&gt; Datash
 </device>
 </devices>
 </deviceset>
-<deviceset name="RCL_CPOL-EU" prefix="C" uservalue="yes" library_version="22">
+<deviceset name="RCL_CPOL-EU" prefix="C" uservalue="yes" library_version="23">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="RCL_CPOL" x="0" y="0"/>
@@ -1817,7 +1817,7 @@ Source: &lt;a href="https://www.torexsemi.com/file/xc6220/XC6220.pdf"&gt; Datash
 </device>
 </devices>
 </deviceset>
-<deviceset name="112A-TAAR-R03_ATTEND" prefix="J" library_version="22">
+<deviceset name="112A-TAAR-R03_ATTEND" prefix="J" library_version="23">
 <description>&lt;b&gt;Micro SD Card Socket, Push-Push Type, Top Mount, SMT, H=1.83mm, 10u&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.attend.com.tw/data/download/file/112A-TAAR-R03.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1847,7 +1847,7 @@ Source: &lt;a href="https://www.attend.com.tw/data/download/file/112A-TAAR-R03.p
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32-C6-WROOM-1-N8" prefix="U" library_version="22">
+<deviceset name="ESP32-C6-WROOM-1-N8" prefix="U" library_version="23">
 <description> &lt;a href="https://pricing.snapeda.com/parts/ESP32-C6-WROOM-1-N8/Espressif%20Systems/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="ESP32-C6-WROOM-1-N8" x="0" y="0"/>
@@ -1898,7 +1898,7 @@ Source: &lt;a href="https://www.attend.com.tw/data/download/file/112A-TAAR-R03.p
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32_WROVER_SPARKFUN-IC-POWER_MCP73831" prefix="U" library_version="22">
+<deviceset name="ESP32_WROVER_SPARKFUN-IC-POWER_MCP73831" prefix="U" library_version="23">
 <description>&lt;h3&gt;MCP73831T Li-Ion, Li-Pol Controller&lt;/h3&gt;
 &lt;p&gt;Miniature single cell, fully integrated Li-Ion, Li-polymer charge management controller
 &lt;li&gt;&lt;a href=”http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf”&gt;Datasheet&lt;/a&gt;&lt;/li&gt;&lt;/p&gt;
@@ -1926,7 +1926,7 @@ Source: &lt;a href="https://www.attend.com.tw/data/download/file/112A-TAAR-R03.p
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADAFRUIT_LED" prefix="LED" uservalue="yes" library_version="22">
+<deviceset name="ADAFRUIT_LED" prefix="LED" uservalue="yes" library_version="23">
 <description>&lt;b&gt;LED&lt;/b&gt;&lt;p&gt;
 &lt;u&gt;OSRAM&lt;/u&gt;:&lt;br&gt;
 
@@ -2002,7 +2002,7 @@ Source: http://www.osram.convergy.de/</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SI1308EDL-T1-GE3" prefix="Q" library_version="22">
+<deviceset name="SI1308EDL-T1-GE3" prefix="Q" library_version="23">
 <description>&lt;b&gt;MOSFET N-Ch 30V 1.5A TrenchFET SC70 Vishay Si1308EDL-T1-GE3 N-channel MOSFET Transistor, 1.5 A, 30 V, 3-Pin SC-70&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-GE3.pdf"&gt; Datasheet &lt;/a&gt;  &lt;a href="https://pricing.snapeda.com/parts/SI1308EDL-T1-GE3/Vishay%20Siliconix/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
@@ -2031,7 +2031,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 </device>
 </devices>
 </deviceset>
-<deviceset name="MBR0530" prefix="D" library_version="22">
+<deviceset name="MBR0530" prefix="D" library_version="23">
 <description>&lt;b&gt;ON SEMICONDUCTOR - MBR0530 - DIODE, SCHOTTKY, 0.5A, 30V, SOD-123&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MBR0530T1-D.PDF"&gt; Datasheet &lt;/a&gt;  &lt;a href="https://pricing.snapeda.com/parts/MBR0530/ON%20Semiconductor/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
@@ -2049,7 +2049,7 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MBR0530T1-D.PDF"&gt; Da
 </device>
 </devices>
 </deviceset>
-<deviceset name="744043680" prefix="L" library_version="22">
+<deviceset name="744043680" prefix="L" library_version="23">
 <gates>
 <gate name="A" symbol="IND" x="0" y="0" swaplevel="1"/>
 </gates>
@@ -2069,7 +2069,7 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MBR0530T1-D.PDF"&gt; Da
 </device>
 </devices>
 </deviceset>
-<deviceset name="SJ" prefix="SJ" uservalue="yes" library_version="22">
+<deviceset name="SJ" prefix="SJ" uservalue="yes" library_version="23">
 <description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="SJ" x="0" y="0"/>
@@ -2088,7 +2088,7 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MBR0530T1-D.PDF"&gt; Da
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAX17048G+T10" prefix="U" library_version="22">
+<deviceset name="MAX17048G+T10" prefix="U" library_version="23">
 <description> &lt;a href="https://pricing.snapeda.com/parts/MAX17048G%2BT10/Analog%20Devices/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX17048G+T10" x="0" y="0"/>
@@ -2122,7 +2122,7 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MBR0530T1-D.PDF"&gt; Da
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD5229G-TR" prefix="IC" library_version="22">
+<deviceset name="BD5229G-TR" prefix="IC" library_version="23">
 <description>&lt;b&gt;Voltage Detector with Adjustable Delay Time: CMOS processes are utilized to develop high precision, low current consumption CMOS reset ICs that allow arbitrary setting of the delay time. The extensive lineup includes both Nch Open Drain and CMOS output types in a wide range of detection voltages (from 2.3V to 6.0V, in 0.1V steps), enabling selection of the ideal solution based on customer requirements. In addition, the entire series is of course both lead-free and RoHS-compliant.&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/f2b9741ef86007909f138d561a359946.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -2152,7 +2152,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="BUTTON_CUSYOMV1" library_version="22">
+<deviceset name="BUTTON_CUSYOMV1" library_version="46">
 <gates>
 <gate name="G$1" symbol="MYBUTTON" x="0" y="0"/>
 </gates>
@@ -2170,7 +2170,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32_WROVER_BME680_BME680" prefix="U" library_version="22">
+<deviceset name="ESP32_WROVER_BME680_BME680" prefix="U" library_version="23">
 <description>Integrated Environmental Unit</description>
 <gates>
 <gate name="G$1" symbol="ESP32_WROVER_BME680_BME680" x="0" y="0"/>
@@ -2199,7 +2199,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="W25Q512JVEIQ" prefix="U" library_version="22">
+<deviceset name="W25Q512JVEIQ" prefix="U" library_version="23">
 <description> &lt;a href="https://pricing.snapeda.com/parts/W25Q512JVEIQ/Winbond%20Electronics/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="W25Q512JVEIQ" x="0" y="0"/>
@@ -2232,7 +2232,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="PGB1010603MR" prefix="D" library_version="64">
+<deviceset name="PGB1010603MR" prefix="D" library_version="23">
 <description> &lt;a href="https://pricing.snapeda.com/parts/PGB1010603MR/Littelfuse%20Inc./view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="PGB1010603MR-1" x="0" y="0"/>
@@ -2249,7 +2249,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="QWIIC_CONNECTOR" prefix="J" uservalue="yes" library_version="22">
+<deviceset name="QWIIC_CONNECTOR" prefix="J" uservalue="yes" library_version="23">
 <description>&lt;h3&gt;SparkFun I&lt;sup&gt;2&lt;/sup&gt;C Standard Qwiic Connector&lt;/h3&gt;
 An SMD 1mm pitch JST connector makes it easy and quick (get it? Qwiic?) to connect I&lt;sup&gt;2&lt;/sup&gt;C devices to each other. The &lt;a href=”http://www.sparkfun.com/qwiic”&gt;Qwiic system&lt;/a&gt; enables fast and solderless connection between popular platforms and various sensors and actuators.
 
@@ -2279,7 +2279,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </device>
 </devices>
 </deviceset>
-<deviceset name="TP" prefix="TP" library_version="22">
+<deviceset name="TP" prefix="TP" library_version="23">
 <description>&lt;b&gt;Test pad&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="TP" x="0" y="0"/>
@@ -2298,7 +2298,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </device>
 </devices>
 </deviceset>
-<deviceset name="DS3231SN#" prefix="U" library_version="22">
+<deviceset name="DS3231SN#" prefix="U" library_version="23">
 <description>Real Time Clock Serial 16-Pin SOIC W T/R     &lt;a href="https://pricing.snapeda.com/parts/DS3231SN%23/Analog%20Devices/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="A" symbol="DS3231SN#" x="0" y="0"/>
@@ -2331,7 +2331,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPH3225A" prefix="C" library_version="22">
+<deviceset name="CPH3225A" prefix="C" library_version="23">
 <description>Cap 0.011F 3.3V 1210 Flat &lt;a href="https://pricing.snapeda.com/parts/CPH3225A/Seiko%20Instruments/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="CPH3225A" x="0" y="0"/>
@@ -2358,7 +2358,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </device>
 </devices>
 </deviceset>
-<deviceset name="FH34SRJ-24S-0.5SH_99_" prefix="J" library_version="22">
+<deviceset name="FH34SRJ-24S-0.5SH_99_" prefix="J" library_version="23">
 <description>&lt;b&gt;24 Position FFC, FPC Connector Contacts, Top and Bottom 0.020" (0.50mm) Surface Mount, Right Angle&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-1255-6-99&amp;productname=FH34SRJ-24S-0.5SH(99)&amp;series=FH34SRJ&amp;documenttype=2DDrawing&amp;lang=en&amp;documentid=0000990903"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -2423,8 +2423,8 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="ESP32_WROVER_FRAMES_A3L-LOC" device=""/>
-<part name="J1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="SAMACSYS_PARTS_USB4110-GF-A" device=""/>
+<part name="FRAME1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="ESP32_WROVER_FRAMES_A3L-LOC" device="" value="Frame"/>
+<part uuid="2882400054" name="J1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="SAMACSYS_PARTS_USB4110-GF-A" device=""/>
 <part name="SUPPLY1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="GND-BAR" device="" value="GND"/>
 <part uuid="2882400026" name="PFMF.050.1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="ESP32C6_VARISTOR" device="CN1812"/>
 <part name="R2-USB1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="ESP32_WROVER_EAGLE-LTSPICE_R" device="" value="5K1"/>
@@ -2543,23 +2543,23 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <part uuid="2882400005" name="J2" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:41390393/1" value="QWIIC_RIGHT_ANGLE"/>
 <part name="SUPPLY50" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="3V3-CIRCLE" device="" value="3V3"/>
 <part name="SUPPLY51" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="GND-BAR" device="" value="GND"/>
-<part name="TP1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
-<part name="TP2" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
-<part name="TP3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
-<part name="TP4" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
-<part name="TP5" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
-<part name="TP6" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
-<part name="TP7" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
-<part name="TP8" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
-<part name="TP9" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
-<part name="TP10" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
-<part name="TP11" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
-<part name="TP12" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
-<part name="TP13" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
-<part name="TP14" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
-<part name="TP15" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
-<part name="TP16" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
-<part name="TP17" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
+<part name="EPD_DC" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
+<part name="EPD_RST" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
+<part name="EPD_3V3_C" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
+<part name="VBUS" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
+<part name="INT_RTC" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
+<part name="EPD_CS" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
+<part name="EPD_BUSY" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
+<part name="SCK" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
+<part name="MOSI" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
+<part name="MISO" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
+<part name="VBAT" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
+<part name="GND1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
+<part name="GND" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
+<part name="3V3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
+<part name="EPD_3V3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
+<part name="RX" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
+<part name="TX" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="TP" device="TP20R"/>
 <part uuid="2882400023" name="U4" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="DS3231SN#" device=""/>
 <part name="SUPPLY52" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="3V3-CIRCLE" device="" value="3V3"/>
 <part name="SUPPLY53" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.Qfw1b48OSWGGJ_ay_NEn9w" deviceset="GND-BAR" device="" value="GND"/>
@@ -2901,8 +2901,8 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <attribute name="NAME" x="59.69" y="-2.54" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="69.85" y="-17.78" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="SUPPLY34" gate="G$1" x="76.2" y="2.54" smashed="yes" rot="R270">
-<attribute name="VALUE" x="79.375" y="2.667" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY34" gate="G$1" x="78.74" y="2.54" smashed="yes">
+<attribute name="VALUE" x="78.613" y="5.715" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY35" gate="G$1" x="48.26" y="-30.48" smashed="yes">
 <attribute name="VALUE" x="48.26" y="-32.385" size="1.778" layer="96" align="center"/>
@@ -2954,7 +2954,7 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <attribute name="VALUE" x="89.662" y="-3.81" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="RESET_BUTTON" gate="G$1" x="83.82" y="-17.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="78.994" y="-17.78" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="78.994" y="-22.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="86.614" y="-17.78" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="C5" gate="G$1" x="91.44" y="-17.78" smashed="yes">
@@ -3105,71 +3105,71 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <instance part="SUPPLY51" gate="G$1" x="22.86" y="-83.82" smashed="yes" rot="R270">
 <attribute name="VALUE" x="20.955" y="-83.82" size="1.778" layer="96" rot="R270" align="center"/>
 </instance>
-<instance part="TP1" gate="G$1" x="-30.48" y="-104.14" smashed="yes" rot="R180">
+<instance part="EPD_DC" gate="G$1" x="-30.48" y="-104.14" smashed="yes" rot="R180">
 <attribute name="NAME" x="-29.21" y="-105.41" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="-31.75" y="-102.87" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="TP2" gate="G$1" x="-22.86" y="-104.14" smashed="yes" rot="R180">
+<instance part="EPD_RST" gate="G$1" x="-22.86" y="-104.14" smashed="yes" rot="R180">
 <attribute name="NAME" x="-21.59" y="-105.41" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="-24.13" y="-102.87" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="TP3" gate="G$1" x="-15.24" y="-104.14" smashed="yes" rot="R180">
+<instance part="EPD_3V3_C" gate="G$1" x="-15.24" y="-104.14" smashed="yes" rot="R180">
 <attribute name="NAME" x="-13.97" y="-105.41" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="-16.51" y="-102.87" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="TP4" gate="G$1" x="-7.62" y="-104.14" smashed="yes" rot="R180">
+<instance part="VBUS" gate="G$1" x="-7.62" y="-104.14" smashed="yes" rot="R180">
 <attribute name="NAME" x="-6.35" y="-105.41" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="-8.89" y="-102.87" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="TP5" gate="G$1" x="0" y="-104.14" smashed="yes" rot="R180">
+<instance part="INT_RTC" gate="G$1" x="0" y="-104.14" smashed="yes" rot="R180">
 <attribute name="NAME" x="1.27" y="-105.41" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="-1.27" y="-102.87" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="TP6" gate="G$1" x="0" y="-81.28" smashed="yes" rot="R180">
+<instance part="EPD_CS" gate="G$1" x="0" y="-81.28" smashed="yes" rot="R180">
 <attribute name="NAME" x="1.27" y="-82.55" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="-1.27" y="-80.01" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="TP7" gate="G$1" x="-7.62" y="-81.28" smashed="yes" rot="R180">
+<instance part="EPD_BUSY" gate="G$1" x="-7.62" y="-81.28" smashed="yes" rot="R180">
 <attribute name="NAME" x="-6.35" y="-82.55" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="-8.89" y="-80.01" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="TP8" gate="G$1" x="-15.24" y="-81.28" smashed="yes" rot="R180">
+<instance part="SCK" gate="G$1" x="-15.24" y="-81.28" smashed="yes" rot="R180">
 <attribute name="NAME" x="-13.97" y="-82.55" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="-16.51" y="-80.01" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="TP9" gate="G$1" x="-22.86" y="-81.28" smashed="yes" rot="R180">
+<instance part="MOSI" gate="G$1" x="-22.86" y="-81.28" smashed="yes" rot="R180">
 <attribute name="NAME" x="-21.59" y="-82.55" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="-24.13" y="-80.01" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="TP10" gate="G$1" x="-30.48" y="-81.28" smashed="yes" rot="R180">
+<instance part="MISO" gate="G$1" x="-30.48" y="-81.28" smashed="yes" rot="R180">
 <attribute name="NAME" x="-29.21" y="-82.55" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="-31.75" y="-80.01" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="TP11" gate="G$1" x="-20.32" y="-60.96" smashed="yes" rot="R180">
+<instance part="VBAT" gate="G$1" x="-20.32" y="-60.96" smashed="yes" rot="R180">
 <attribute name="NAME" x="-16.51" y="-62.23" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="-21.59" y="-59.69" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="TP12" gate="G$1" x="-12.7" y="-60.96" smashed="yes" rot="R180">
+<instance part="GND1" gate="G$1" x="-12.7" y="-60.96" smashed="yes" rot="R180">
 <attribute name="NAME" x="-11.43" y="-57.15" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="-13.97" y="-59.69" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="TP13" gate="G$1" x="-7.62" y="-60.96" smashed="yes" rot="R180">
+<instance part="GND" gate="G$1" x="-7.62" y="-60.96" smashed="yes" rot="R180">
 <attribute name="NAME" x="-3.81" y="-57.15" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="-8.89" y="-59.69" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="TP14" gate="G$1" x="-2.54" y="-60.96" smashed="yes" rot="R180">
+<instance part="3V3" gate="G$1" x="-2.54" y="-60.96" smashed="yes" rot="R180">
 <attribute name="NAME" x="-3.81" y="-62.23" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="-3.81" y="-59.69" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="TP15" gate="G$1" x="2.54" y="-60.96" smashed="yes" rot="R180">
+<instance part="EPD_3V3" gate="G$1" x="2.54" y="-60.96" smashed="yes" rot="R180">
 <attribute name="NAME" x="3.81" y="-62.23" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="1.27" y="-59.69" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="TP16" gate="G$1" x="-27.94" y="-60.96" smashed="yes" rot="R180">
+<instance part="RX" gate="G$1" x="-27.94" y="-60.96" smashed="yes" rot="R180">
 <attribute name="NAME" x="-24.13" y="-62.23" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="-29.21" y="-59.69" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="TP17" gate="G$1" x="-33.02" y="-60.96" smashed="yes" rot="R180">
+<instance part="TX" gate="G$1" x="-33.02" y="-60.96" smashed="yes" rot="R180">
 <attribute name="NAME" x="-31.75" y="-62.23" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="-34.29" y="-59.69" size="1.778" layer="97" rot="R180"/>
 </instance>
@@ -3486,9 +3486,9 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <junction x="127" y="-22.86"/>
 <wire x1="127" y1="-22.86" x2="127" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="SUPPLY37" gate="G$1" pin="GND"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="CHANGE_BUTTON" gate="G$1" pin="1"/>
 <pinref part="CHANGE_BUTTON" gate="G$1" pin="2"/>
-<pinref part="C3" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="104.14" y1="-22.86" x2="106.68" y2="-22.86" width="0.1524" layer="91"/>
@@ -3496,9 +3496,9 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <junction x="106.68" y="-22.86"/>
 <wire x1="106.68" y1="-22.86" x2="106.68" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="SUPPLY33" gate="G$1" pin="GND"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="BOOT_BUTTON" gate="G$1" pin="1"/>
 <pinref part="BOOT_BUTTON" gate="G$1" pin="2"/>
-<pinref part="C4" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="83.82" y1="-22.86" x2="86.36" y2="-22.86" width="0.1524" layer="91"/>
@@ -3506,9 +3506,9 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <junction x="86.36" y="-22.86"/>
 <wire x1="86.36" y1="-22.86" x2="86.36" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="SUPPLY39" gate="G$1" pin="GND"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="RESET_BUTTON" gate="G$1" pin="1"/>
 <pinref part="RESET_BUTTON" gate="G$1" pin="2"/>
-<pinref part="C5" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="48.26" y1="-25.4" x2="48.26" y2="-27.94" width="0.1524" layer="91"/>
@@ -3580,12 +3580,12 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <segment>
 <wire x1="-7.62" y1="-58.42" x2="-7.62" y2="-55.88" width="0.1524" layer="91"/>
 <label x="-7.62" y="-55.88" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="TP13" gate="G$1" pin="TP"/>
+<pinref part="GND" gate="G$1" pin="TP"/>
 </segment>
 <segment>
 <wire x1="-12.7" y1="-58.42" x2="-12.7" y2="-55.88" width="0.1524" layer="91"/>
 <label x="-12.7" y="-55.88" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="TP12" gate="G$1" pin="TP"/>
+<pinref part="GND1" gate="G$1" pin="TP"/>
 </segment>
 <segment>
 <pinref part="U4" gate="A" pin="GND"/>
@@ -3744,7 +3744,7 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <segment>
 <wire x1="-7.62" y1="-101.6" x2="-7.62" y2="-99.06" width="0.1524" layer="91"/>
 <label x="-7.62" y="-99.06" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="TP4" gate="G$1" pin="TP"/>
+<pinref part="VBUS" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -3849,7 +3849,7 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <segment>
 <wire x1="-20.32" y1="-58.42" x2="-20.32" y2="-55.88" width="0.1524" layer="91"/>
 <label x="-20.32" y="-55.88" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="TP11" gate="G$1" pin="TP"/>
+<pinref part="VBAT" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -3908,7 +3908,8 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <segment>
 <pinref part="IC2" gate="G$1" pin="VDD"/>
 <pinref part="SUPPLY34" gate="G$1" pin="3V3"/>
-<wire x1="73.66" y1="2.54" x2="73.66" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="0" x2="78.74" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-10.16" x2="73.66" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY31" gate="G$1" pin="3V3"/>
@@ -3984,7 +3985,7 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <segment>
 <wire x1="-2.54" y1="-58.42" x2="-2.54" y2="-55.88" width="0.1524" layer="91"/>
 <label x="-2.54" y="-55.88" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="TP14" gate="G$1" pin="TP"/>
+<pinref part="3V3" gate="G$1" pin="TP"/>
 </segment>
 <segment>
 <pinref part="U4" gate="A" pin="VCC"/>
@@ -4059,7 +4060,7 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <segment>
 <wire x1="-22.86" y1="-78.74" x2="-22.86" y2="-76.2" width="0.1524" layer="91"/>
 <label x="-22.86" y="-76.2" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="TP9" gate="G$1" pin="TP"/>
+<pinref part="MOSI" gate="G$1" pin="TP"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="14"/>
@@ -4095,7 +4096,7 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <segment>
 <wire x1="-15.24" y1="-78.74" x2="-15.24" y2="-76.2" width="0.1524" layer="91"/>
 <label x="-15.24" y="-76.2" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="TP8" gate="G$1" pin="TP"/>
+<pinref part="SCK" gate="G$1" pin="TP"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="13"/>
@@ -4131,7 +4132,7 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <segment>
 <wire x1="-30.48" y1="-78.74" x2="-30.48" y2="-76.2" width="0.1524" layer="91"/>
 <label x="-30.48" y="-76.2" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="TP10" gate="G$1" pin="TP"/>
+<pinref part="MISO" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="EPD_CS" class="0">
@@ -4152,7 +4153,7 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <segment>
 <wire x1="0" y1="-78.74" x2="0" y2="-76.2" width="0.1524" layer="91"/>
 <label x="0" y="-76.2" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="TP6" gate="G$1" pin="TP"/>
+<pinref part="EPD_CS" gate="G$1" pin="TP"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="12"/>
@@ -4197,9 +4198,9 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <junction x="132.08" y="-12.7"/>
 <label x="132.08" y="-10.16" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="R_CHANGE" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="CHANGE_BUTTON" gate="G$1" pin="3"/>
 <pinref part="CHANGE_BUTTON" gate="G$1" pin="4"/>
-<pinref part="C3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -4211,7 +4212,7 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <segment>
 <wire x1="-33.02" y1="-58.42" x2="-33.02" y2="-55.88" width="0.1524" layer="91"/>
 <label x="-33.02" y="-55.88" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="TP17" gate="G$1" pin="TP"/>
+<pinref part="TX" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="RX" class="0">
@@ -4223,7 +4224,7 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <segment>
 <wire x1="-27.94" y1="-58.42" x2="-27.94" y2="-55.88" width="0.1524" layer="91"/>
 <label x="-27.94" y="-55.88" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="TP16" gate="G$1" pin="TP"/>
+<pinref part="RX" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="RTC_RST" class="0">
@@ -4301,7 +4302,7 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <segment>
 <wire x1="-15.24" y1="-101.6" x2="-15.24" y2="-99.06" width="0.1524" layer="91"/>
 <label x="-15.24" y="-99.06" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="TP3" gate="G$1" pin="TP"/>
+<pinref part="EPD_3V3_C" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -4377,7 +4378,7 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <segment>
 <wire x1="-22.86" y1="-101.6" x2="-22.86" y2="-99.06" width="0.1524" layer="91"/>
 <label x="-22.86" y="-99.06" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="TP2" gate="G$1" pin="TP"/>
+<pinref part="EPD_RST" gate="G$1" pin="TP"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="10"/>
@@ -4404,9 +4405,9 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <wire x1="73.66" y1="-12.7" x2="83.82" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="83.82" y="-12.7"/>
 <pinref part="R_RESET" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="RESET_BUTTON" gate="G$1" pin="3"/>
 <pinref part="RESET_BUTTON" gate="G$1" pin="4"/>
-<pinref part="C5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="INT_RTC" class="0">
@@ -4418,7 +4419,7 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <segment>
 <wire x1="0" y1="-101.6" x2="0" y2="-99.06" width="0.1524" layer="91"/>
 <label x="0" y="-99.06" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="TP5" gate="G$1" pin="TP"/>
+<pinref part="INT_RTC" gate="G$1" pin="TP"/>
 </segment>
 <segment>
 <pinref part="U4" gate="A" pin="SQW/!INT"/>
@@ -4457,7 +4458,7 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <segment>
 <wire x1="-7.62" y1="-78.74" x2="-7.62" y2="-76.2" width="0.1524" layer="91"/>
 <label x="-7.62" y="-76.2" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="TP7" gate="G$1" pin="TP"/>
+<pinref part="EPD_BUSY" gate="G$1" pin="TP"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="9"/>
@@ -4490,9 +4491,9 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <junction x="111.76" y="-12.7"/>
 <label x="111.76" y="-10.16" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="R_BOOT" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="BOOT_BUTTON" gate="G$1" pin="3"/>
 <pinref part="BOOT_BUTTON" gate="G$1" pin="4"/>
-<pinref part="C4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="EPD_DC" class="0">
@@ -4504,7 +4505,7 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <segment>
 <wire x1="-30.48" y1="-101.6" x2="-30.48" y2="-99.06" width="0.1524" layer="91"/>
 <label x="-30.48" y="-99.06" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="TP1" gate="G$1" pin="TP"/>
+<pinref part="EPD_DC" gate="G$1" pin="TP"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="11"/>
@@ -4555,7 +4556,7 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <segment>
 <wire x1="2.54" y1="-58.42" x2="2.54" y2="-55.88" width="0.1524" layer="91"/>
 <label x="2.54" y="-55.88" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="TP15" gate="G$1" pin="TP"/>
+<pinref part="EPD_3V3" gate="G$1" pin="TP"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="15"/>
@@ -4665,8 +4666,8 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <wire x1="-149.86" y1="20.32" x2="-149.86" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="-149.86" y1="-10.16" x2="-152.4" y2="-10.16" width="0.1524" layer="91"/>
 <label x="-152.4" y="-10.16" size="1.27" layer="95" rot="R180" xref="yes"/>
-<junction x="-149.86" y="20.32"/>
 <pinref part="EPD_C9" gate="G$1" pin="2"/>
+<junction x="-149.86" y="20.32"/>
 </segment>
 </net>
 <net name="PREVGH" class="0">
@@ -4677,13 +4678,13 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="21"/>
-<wire x1="-127" y1="15.24" x2="-144.78" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="-144.78" y1="15.24" x2="-152.4" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="-144.78" y1="15.24" x2="-144.78" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-147.32" y1="-12.7" x2="-144.78" y2="-12.7" width="0.1524" layer="91"/>
-<label x="-147.32" y="-12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
-<junction x="-144.78" y="15.24"/>
+<wire x1="-127" y1="15.24" x2="-147.32" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="15.24" x2="-152.4" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="15.24" x2="-147.32" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="-12.7" x2="-147.32" y2="-12.7" width="0.1524" layer="91"/>
+<label x="-149.86" y="-12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="EPD_C7" gate="G$1" pin="2"/>
+<junction x="-147.32" y="15.24"/>
 </segment>
 </net>
 <net name="N$7" class="0">

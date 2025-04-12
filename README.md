@@ -36,6 +36,30 @@ The project contains the **Product Design** with a complete [`schematic`](Hardwa
 
 ---
 
+##   Design Process
+
+1.  **Schematic Design:** The schematic was meticulously designed to align with the project's specified requirements. It highlights the important `components and modules`.
+    
+2.  **PCB Redesign:** The PCB layout was generated based on the size of the enclosure, and `components were strategically placed` according to design guidelines and best practices.
+    
+3.  **Routing Implementation:** Routing was used on both the top and bottom layers of the PCB. `Signal traces` were set to a width of 0.15mm while `the power traces` were organized into a dedicated net class named `Power class` routed with a width of 0.3mm to ensure optimal power distribution.
+    
+4.  **Ground Plane and Via Stitching:** `Ground planes` were implemented on both the top and bottom layers. `Via stitching` was applied, particularly in proximity to the ESP module, to establish effective interlayer connections and minimize ground impedance. `Vias` were used to interconnect the ground planes.
+    
+5.  **3D Model Integration:** `3D models` of the components were found with the link to them at the bottom of the README, integrated into Fusion 360, and accurately placed on the `PCB layout` to facilitate mechanical design and visualization.
+    
+6.  **Enclosure Integration:** The PCB was integrated into its intended enclosure. The enclosure design was adapted to accommodate buttons, connectors, and other external interface elements. `Battery` and `display` 3D models were developed positioned within the enclosure to ensure proper fit and alignment.
+
+7.  **Export and Manufacturing Preparation:** The final stage involved `generating all necessary manufacturing` documentation, including Gerber files, Pick and Place (CPL) data, and the Bill of Materials (BOM), to prepare the design for fabrication and assembly.
+
+---
+
+## Decision Making
+
+I switched the original [battery](https://www.tme.eu/Document/e0683d8c34e6d878124489f71bffb6ee/cel0014.pdf) from cellevia batteries with a similar [one](https://www.elektronik.ropla.eu/pdf/stock/aky/aky0099.pdf) (same electrical parameters) from akyga with a size that enters well in the enclosure and beside that it also has a lifecycle of `500 charges` as opossed to only `300 charges`
+
+---
+
 ## Component Description and Interaction
 
 ### Microcontroller
@@ -160,6 +184,7 @@ Several ESP32-C6 pins will be connected to the E-Paper display header to control
 
 ![Product](Images/Completed%203D%20model%20Simple%20Background.png)  
 ![Exploded view](Images/Completed%203D%20model%20exploded%20view.png)
+![3D_PCB](Images/3D_PCB.png)
 
 ---
 
